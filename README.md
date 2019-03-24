@@ -10,6 +10,7 @@
 ## Todo
 
 * [ ] Support multi-language
+* [ ] Publish documentation
 
 ## Credits
 
