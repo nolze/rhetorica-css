@@ -16,6 +16,8 @@ Have a look at the demo: <https://nolze.github.io/rhetorica-css/>
 * [ ] Tables
 * [ ] Lists
 * [ ] Table of Contents
+* [ ] References
+* [ ] Codes
 
 ## Principles
 
