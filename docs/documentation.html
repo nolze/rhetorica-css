@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rhetorica.css</title>
+    <link href="rhetorica.css" rel="stylesheet" />
+    <style>
+      .example {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-left: 2px solid #bbb;
+        counter-reset: sidenote-counter;
+      }
+      section {
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <p>
+        <a href="https://github.com/nolze/rhetorica-css">rhetorica.css</a> - A
+        text-oriented CSS for text documents.<br />
+        An <a href="index.html">example</a> and the
+        <a href="documentation.html">documentation</a>.
+      </p>
+      <h1>Documentation</h1>
+      <ul>
+        <li><a href="#headings">Headings</a></li>
+        <li><a href="#paragraphs">Paragraphs</a></li>
+        <li><a href="#sidenotes">Sidenotes (in place of footnotes)</a></li>
+        <li><a href="#blockquote">Blockquote</a></li>
+        <li><a href="#lists">Lists</a></li>
+      </ul>
+      <section>
+        <h2 id="headings">Headings</h2>
+        <div class="example">
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3, 4, ...</h3>
+        </div>
+      </section>
+      <section>
+        <h2 id="paragraphs">Paragraphs</h2>
+        <div class="example">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat ...
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 id="sidenotes">Sidenotes (in place of footnotes)</h2>
+        <div class="example">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur
+            <label class="sidenote-number"></label>
+            <span class="sidenote">
+              <i>consectetur</i> is the third-person singular present active
+              subjunctive of <i>consector</i> ("I pursue").
+            </span>
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.
+            <label class="sidenote-number"></label>
+            <span class="sidenote">
+              Derived from Cicero, <i>De finibus bonorum et malorum</i>,
+              1.10.33.
+            </span>
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 id="blockquote">Blockquote</h2>
+        <div class="example">
+          <p>No one pursues to obtain pain of itself. Cicero argues:</p>
+          <blockquote>
+            <p>
+              Nemo
+              <label class="sidenote-number"></label>
+              <span class="sidenote"> <i>Nemo</i> means "no one". </span>
+              enim ipsum voluptatem quia voluptas sit aspernatur aut odit aut
+              fugit, sed quia consequuntur magni dolores eos quiratione
+              voluptatem sequi nesciunt.
+            </p>
+            <footer>
+              Cicero, <i>De finibus bonorum et malorum</i>, 1.10.33.
+            </footer>
+          </blockquote>
+          <p>According to the passage, ...</p>
+        </div>
+      </section>
+      <section>
+        <h2 id="lists">Lists</h2>
+        <div class="example">
+          <h3>Unordered list</h3>
+          <ul>
+            <li>Cyan</li>
+            <li>Magenta</li>
+            <li>Yellow</li>
+          </ul>
+          <h3>Ordered list</h3>
+          <ol>
+            <li>Gold</li>
+            <li>Silver</li>
+            <li>Bronze</li>
+          </ol>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>

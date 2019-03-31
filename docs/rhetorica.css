@@ -45,7 +45,8 @@ a {
 }
 p,
 ol,
-ul {
+ul,
+blockquote {
   line-height: 1.75;
 }
 p {
@@ -95,8 +96,20 @@ li:not(:first-child) {
 label.sidenote-number {
   display: inline;
 }
+blockquote {
+  padding: 0;
+  margin-right: 0;
+}
+blockquote footer {
+  text-align: right;
+}
+blockquote .sidenote {
+  text-align: left;
+  margin-right: -53.23%;
+}
 @media (max-width: 760px) {
-  .sidenote {
+  .sidenote,
+  blockquote .sidenote {
     box-sizing: border-box;
     display: block;
     float: left;
@@ -105,6 +118,10 @@ label.sidenote-number {
     width: 95%;
     margin: 1rem 2.5%;
     position: relative;
+  }
+  blockquote p,
+  blockquote footer {
+    width: 100%;
   }
 }
 @media (min-width: 60em) {
