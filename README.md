@@ -4,6 +4,8 @@
 
 Have a look at the demo: <https://nolze.github.io/rhetorica-css/>
 
+Latest build (alpha): [https://cdn.jsdelivr.net/gh/nolze/rhetorica-css/docs/rhetorica.css](https://cdn.jsdelivr.net/gh/nolze/rhetorica-css/docs/rhetorica.css)
+
 ## Features
 
 * [x] Headings
