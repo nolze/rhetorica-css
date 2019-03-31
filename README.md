@@ -10,11 +10,12 @@ Have a look at the demo: <https://nolze.github.io/rhetorica-css/>
   * [ ] Secondary super- and sub-texts
 * [x] Paragraph
 * [x] Sidenotes (in place of footnotes)
-* [ ] Blockquote
+* [x] Blockquote
 * [ ] Epigraphs
 * [ ] Images
 * [ ] Tables
-* [ ] Lists
+* [x] Lists
+  * [ ] Definition lists
 * [ ] Table of Contents
 * [ ] References
 * [ ] Codes
