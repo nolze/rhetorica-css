@@ -3,11 +3,23 @@
   "version": "0.1.0",
   "description": "A text-oriented CSS for text documents.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nolze/rhetorica-css.git"
+  },
   "scripts": {
     "build": "stylus ./src/rhetorica.styl -o ./docs/rhetorica.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "stylus -w ./src/rhetorica.styl -o ./docs/rhetorica.css"
   },
   "author": "nolze",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "text",
+    "document"
+  ],
+  "bugs": {
+    "url": "https://github.com/nolze/rhetorica-css/issues"
+  }
 }
