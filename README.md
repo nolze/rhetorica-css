@@ -29,9 +29,11 @@ Latest build (alpha): [https://cdn.jsdelivr.net/gh/nolze/rhetorica-css/docs/rhet
 
 ## Todo
 
+* [x] Publish documentation
 * [ ] Add usage
+  * [ ] Usage with Markdown
 * [ ] Support multi-language
-* [ ] Publish documentation
+* [ ] Support printing
 
 ## Credits
 
