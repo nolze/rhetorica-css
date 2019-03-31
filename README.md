@@ -1,4 +1,4 @@
-# rhetrica.css
+# rhetorica.css
 
 > A text-oriented CSS for text documents.
 
