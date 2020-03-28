@@ -77,26 +77,32 @@ li:not(:first-child)
   position: relative
 
 .sidenote-number
-  counter-increment: sidenote-counter
-
-.sidenote-number::after,
-.sidenote:before
-  position: relative
-  vertical-align: baseline
-
-.sidenote-number::after
-  content: counter(sidenote-counter)
-  vertical-align: super
-  font-size: 0.75rem
-  left: 0.1rem
-
-.sidenote::before
-  content: counter(sidenote-counter) " "
-  vertical-align: super
-  font-size: 0.75rem
-
-label.sidenote-number
   display: inline
+  vertical-align: super
+  font-size: 0.75rem
+
+.sidenote > .sidenote-number
+  margin-right: 0.25rem
+
+.numbering-auto
+  .sidenote-number
+    counter-increment: sidenote-counter
+
+  .sidenote-number::after,
+  .sidenote:before
+    position: relative
+    vertical-align: baseline
+
+  .sidenote-number::after
+    content: counter(sidenote-counter)
+    vertical-align: super
+    font-size: 0.75rem
+    left: 0.1rem
+
+  .sidenote::before
+    content: counter(sidenote-counter) " "
+    vertical-align: super
+    font-size: 0.75rem
 
 // blockquote
 blockquote
