@@ -2,7 +2,7 @@
 
 > A text-oriented CSS for text documents.
 
-Have a look at the demo: <https://nolze.github.io/rhetorica-css/>
+Documentation and example: <https://nolze.github.io/rhetorica-css/>
 
 Latest build (alpha): [https://cdn.jsdelivr.net/gh/nolze/rhetorica-css@master/docs/rhetorica.min.css](https://cdn.jsdelivr.net/gh/nolze/rhetorica-css@master/docs/rhetorica.min.css)
 
